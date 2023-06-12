@@ -23,7 +23,7 @@ We have to build a portfolio for each of them.
 
 Each person has a preference for each product (on a 1-5 scale) based on their risk tolerancy and opinions.
 
-	|Jason|Julia|Steve|Lucas|
+|	|Jason|Julia|Steve|Lucas|
 |Bond   |4    |2    |1    |3    |
 |Stock  |2    |5    |3    |3    |
 |Crypto |1    |1    |5    |2    |
