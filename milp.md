@@ -14,14 +14,14 @@ We have a Software Development company and we are working with 7 contractors at 
 |Bruce|C, C++           |75               |
 |David|C, Go, Java      |130              |
 
-We have 3 projects with the following budget:
+We have 3 projects with the following details:
 
-|Project|Budget    |Project Objectives                       |
-|-------|----------|-----------------------------------------|
-|A      |75000     |Create fast and lightweight CLI tools    |
-|B      |250000    |Develop neural networks                  |
-|C      |120000    |Web development                          |
-|D      |100000    |Data pipelines                           |
+|Project|Billable Hours|Project Objectives                       |
+|-------|--------------|-----------------------------------------|
+|A      |3000          |Create fast and lightweight CLI tools    |
+|B      |2500          |Develop neural networks                  |
+|C      |1500          |Web development                          |
+|D      |2000          |Data pipelines                           |
 
 One Jira ticket in a project can be developed at different pace by each developer due to their different are of expertise:
 
@@ -37,4 +37,15 @@ One Jira ticket in a project can be developed at different pace by each develope
 
 Our aim is to <b>minimize the cost of our projects</b> considering the experience/knowledge and hourly rates of our staff.
 
+Example Solution (manually):
+---
+- Jason -> Project A: 3000 hrs
+- Sarah -> Project B: 2000 hrs
+- Julia -> Project B: 500 hrs
+- Tom -> Project C: 1500 hrs
+- Chris -> Project D: 1500 hrs
+- David -> Project D: 500 hrs
 
+Result:
+---
+3000\*120 + 2000\*100 + 500\*130 + 1500\*90 + 1500\*150 + 500\*130 = 1.050.000
