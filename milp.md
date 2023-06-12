@@ -39,18 +39,48 @@ Our aim is to <b>minimize the cost of our projects</b> considering the experienc
 
 Example Solution (manually):
 ---
-- Jason -> Project A: 3000 hrs
-- Sarah -> Project B: 2000 hrs
+- Jason -> Project A: 3.000 hrs
+- Sarah -> Project B: 2.000 hrs
 - Julia -> Project B: 500 hrs
-- Tom -> Project C: 1500 hrs
-- Chris -> Project D: 1500 hrs
+- Tom -> Project C: 1.500 hrs
+- Chris -> Project D: 1.500 hrs
 - David -> Project D: 500 hrs
 
 Result:
 ---
-3000\*120 + 2000\*100 + 500\*130 + 1500\*90 + 1500\*150 + 500\*130 = 1.050.000
+3.000\*120 + 2.000\*100 + 500\*130 + 1.500\*90 + 1.500\*150 + 500\*130 = 1.050.000
 
-- x<sub>JA</sub> = 3000
+- x<sub>JA</sub> = 3.000
 - x<sub>JB</sub> = 0
 - x<sub>JC</sub> = 0
 - x<sub>JD</sub> = 0
+
+- x<sub>TA</sub> = 0
+- x<sub>TB</sub> = 0
+- x<sub>TC</sub> = 1.500
+- x<sub>TD</sub> = 0
+
+- x<sub>SA</sub> = 0
+- x<sub>SB</sub> = 2.000
+- x<sub>SC</sub> = 0
+- x<sub>SD</sub> = 0
+
+- x<sub>CA</sub> = 0
+- x<sub>CB</sub> = 0
+- x<sub>CC</sub> = 0
+- x<sub>CD</sub> = 1.500
+
+- x<sub>JuA</sub> = 0
+- x<sub>JuB</sub> = 500
+- x<sub>JuC</sub> = 0
+- x<sub>JuD</sub> = 0
+
+- x<sub>BA</sub> = 0
+- x<sub>BB</sub> = 0
+- x<sub>BC</sub> = 0
+- x<sub>BD</sub> = 0
+
+- x<sub>DA</sub> = 0
+- x<sub>DB</sub> = 0
+- x<sub>DC</sub> = 0
+- x<sub>DD</sub> = 500
