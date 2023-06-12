@@ -50,7 +50,7 @@ Result:
 ---
 3000\*120 + 2000\*100 + 500\*130 + 1500\*90 + 1500\*150 + 500\*130 = 1.050.000
 
-- x<sub>JA<\sub> = 3000
-- x<sub>JB<\sub> = 0
-- x<sub>JC<\sub> = 0
-- x<sub>JD<\sub> = 0
+- x<sub>JA</sub> = 3000
+- x<sub>JB</sub> = 0
+- x<sub>JC</sub> = 0
+- x<sub>JD</sub> = 0
