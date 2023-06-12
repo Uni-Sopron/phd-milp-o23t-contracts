@@ -4,15 +4,15 @@
 
 We have a Software Development company and we are working with 7 contractors at the same time. They have different skillsets and specializations:
 
-|Name |Area of Expertise|Hourly Rate (USD)|
-|-----|-----------------|-----------------|
-|Jason|Rust, Go         |120              |
-|Tom  |JS               |90               |
-|Sarah|Python, C++      |100              |
-|Chris|Python, Java     |150              |
-|Julia|Rust, Python     |130              |
-|Bruce|C, C++           |75               |
-|David|C, Go, Java      |130              |
+|Name |Area of Expertise|Hourly Rate (USD)|Max. Billable hours|
+|-----|-----------------|-----------------|-------------------|
+|Jason|Rust, Go         |120              |4000               |
+|Tom  |JS               |90               |2000               |
+|Sarah|Python, C++      |100              |2500               |
+|Chris|Python, Java     |150              |1500               |
+|Julia|Rust, Python     |130              |2000               |
+|Bruce|C, C++           |75               |1500               |
+|David|C, Go, Java      |130              |2000               |
 
 We have 3 projects with the following details:
 
@@ -84,3 +84,7 @@ Result:
 - x<sub>DB</sub> = 0
 - x<sub>DC</sub> = 0
 - x<sub>DD</sub> = 500
+
+Constraints:
+---
+
