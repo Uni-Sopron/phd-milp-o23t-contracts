@@ -1,0 +1,111 @@
+Problem:    sw_project_general
+Rows:       12
+Columns:    28
+Non-zeros:  84
+Status:     INFEASIBLE (FINAL)
+Objective:  Project_cost = 4627500 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Max_loc_upper_bound[Jason]
+                    NU         14000                       14000            70 
+     2 Max_loc_upper_bound[Tom]
+                    NU         12000                       12000      -11.6667 
+     3 Max_loc_upper_bound[Sarah]
+                    NU         12500                       12500      -8.33333 
+     4 Max_loc_upper_bound[Chris]
+                    NU         25000                       25000          37.5 
+     5 Max_loc_upper_bound[Julia]
+                    NU         20000                       20000       43.3333 
+     6 Max_loc_upper_bound[Bruce]
+                    NU         15000                       15000            25 
+     7 Max_loc_upper_bound[David]
+                    NU         20000                       20000          32.5 
+     8 Demand_must_be_met[A]
+                    NL         15000         15000                     41.6667 
+     9 Demand_must_be_met[B]
+                    NL         17500         17500                          25 
+    10 Demand_must_be_met[C]
+                    B           1000         30000               
+    11 Demand_must_be_met[D]
+                    NL         85000         85000                       < eps
+    12 Project_cost B     4.6275e+06                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 assigned_loc[Jason,A]
+                    NL             0             0                    -91.6667 
+     2 assigned_loc[Jason,B]
+                    NL             0             0                         -45 
+     3 assigned_loc[Jason,C]
+                    NL             0             0                         -40 
+     4 assigned_loc[Jason,D]
+                    B          14000             0               
+     5 assigned_loc[Tom,A]
+                    B          12000             0               
+     6 assigned_loc[Tom,B]
+                    NL             0             0                     166.667 
+     7 assigned_loc[Tom,C]
+                    NL             0             0                     26.6667 
+     8 assigned_loc[Tom,D]
+                    NL             0             0                     64.1667 
+     9 assigned_loc[Sarah,A]
+                    B           3000             0               
+    10 assigned_loc[Sarah,B]
+                    B           9500             0               
+    11 assigned_loc[Sarah,C]
+                    NL             0             0                     58.3333 
+    12 assigned_loc[Sarah,D]
+                    NL             0             0                     33.3333 
+    13 assigned_loc[Chris,A]
+                    NL             0             0                     45.8333 
+    14 assigned_loc[Chris,B]
+                    B           8000             0               
+    15 assigned_loc[Chris,C]
+                    B           1000             0               
+    16 assigned_loc[Chris,D]
+                    B          16000             0               
+    17 assigned_loc[Julia,A]
+                    NL             0             0                    -63.3333 
+    18 assigned_loc[Julia,B]
+                    NL             0             0                    -35.8333 
+    19 assigned_loc[Julia,C]
+                    NL             0             0                     43.3333 
+    20 assigned_loc[Julia,D]
+                    B          20000             0               
+    21 assigned_loc[Bruce,A]
+                    NL             0             0                    -41.6667 
+    22 assigned_loc[Bruce,B]
+                    NL             0             0                       < eps
+    23 assigned_loc[Bruce,C]
+                    NL             0             0                         125 
+    24 assigned_loc[Bruce,D]
+                    B          15000             0               
+    25 assigned_loc[David,A]
+                    NL             0             0                       -52.5 
+    26 assigned_loc[David,B]
+                    NL             0             0                     159.167 
+    27 assigned_loc[David,C]
+                    NL             0             0                       < eps
+    28 assigned_loc[David,D]
+                    B          20000             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.86e-09 on row 12
+        max.rel.err = 6.25e-16 on row 10
+        High quality
+
+KKT.PB: max.abs.err = 2.90e+04 on row 10
+        max.rel.err = 9.67e-01 on row 10
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 1.78e-14 on column 6
+        max.rel.err = 3.48e-16 on column 6
+        High quality
+
+KKT.DB: max.abs.err = 9.17e+01 on column 1
+        max.rel.err = 9.17e+01 on column 1
+        DUAL SOLUTION IS INFEASIBLE
+
+End of output
