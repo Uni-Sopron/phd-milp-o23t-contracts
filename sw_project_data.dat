@@ -1,0 +1,40 @@
+set Contractors := Jason Tom Sarah Chris Julia Bruce David;
+param hourly_rate :=
+    Jason 120
+    Tom 90
+    Sarah 100
+    Chris 150
+    Julia 130
+    Bruce 75
+    David 130
+;
+
+param max_loc := 
+    Jason 14000
+    Tom 12000
+    Sarah 12500
+    Chris 25000
+    Julia 20000
+    Bruce 15000
+    David 20000
+;
+
+set Projects := A B C D;
+param est_loc :=
+    A 15000
+    B 17500
+    C 30000
+    D 85000
+;
+
+
+param min_per_loc: 
+        A B C D := 
+    Jason 10 25 15 35
+    Tom 20 120 10 35
+    Sarah 20 10 30 15
+    Chris 50 25 15 15
+    Julia 10 15 40 20
+    Bruce 20 40 120 20
+    David 10 100 15 15
+;

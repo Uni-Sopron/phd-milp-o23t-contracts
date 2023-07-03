@@ -1,0 +1,104 @@
+Problem:    sw_project
+Rows:       12
+Columns:    28
+Non-zeros:  84
+Status:     OPTIMAL
+Objective:  Project_cost = 1963333.333 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Jason_LOC    NU         14000                       14000          -2.5 
+     2 Tom_LOC      NU         12000                       12000         -17.5 
+     3 Sarah_LOC    NU         12500                       12500      -15.8333 
+     4 Chris_LOC    B              0                       25000 
+     5 Julia_LOC    B           9000                       20000 
+     6 Bruce_LOC    NU         15000                       15000          -7.5 
+     7 David_LOC    NU         20000                       20000         < eps
+     8 A_project_loc
+                    NL         15000         15000                     21.6667 
+     9 B_project_loc
+                    NL         17500         17500                        32.5 
+    10 C_project_loc
+                    NL         30000         30000                        32.5 
+    11 D_project_loc
+                    NL         20000         20000                        32.5 
+    12 Project_cost B    1.96333e+06                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Jason_A_project
+                    NL             0             0                    0.833333 
+     2 Jason_B_project
+                    NL             0             0                          20 
+     3 Jason_C_project
+                    B          14000             0               
+     4 Jason_D_project
+                    NL             0             0                          40 
+     5 Tom_A_project
+                    NL             0             0                     25.8333 
+     6 Tom_B_project
+                    NL             0             0                         165 
+     7 Tom_C_project
+                    B          12000             0               
+     8 Tom_D_project
+                    NL             0             0                        37.5 
+     9 Sarah_A_project
+                    NL             0             0                        27.5 
+    10 Sarah_B_project
+                    B          12500             0               
+    11 Sarah_C_project
+                    NL             0             0                     33.3333 
+    12 Sarah_D_project
+                    NL             0             0                     8.33333 
+    13 Chris_A_project
+                    NL             0             0                     103.333 
+    14 Chris_B_project
+                    NL             0             0                          30 
+    15 Chris_C_project
+                    NL             0             0                           5 
+    16 Chris_D_project
+                    NL             0             0                           5 
+    17 Julia_A_project
+                    B           4000             0               
+    18 Julia_B_project
+                    B           5000             0               
+    19 Julia_C_project
+                    NL             0             0                     54.1667 
+    20 Julia_D_project
+                    NL             0             0                     10.8333 
+    21 Bruce_A_project
+                    NL             0             0                     10.8333 
+    22 Bruce_B_project
+                    NL             0             0                          25 
+    23 Bruce_C_project
+                    NL             0             0                         125 
+    24 Bruce_D_project
+                    B          15000             0               
+    25 David_A_project
+                    B          11000             0               
+    26 David_B_project
+                    NL             0             0                     184.167 
+    27 David_C_project
+                    B           4000             0               
+    28 David_D_project
+                    B           5000             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 7.11e-15 on column 11
+        max.rel.err = 1.60e-16 on column 13
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
